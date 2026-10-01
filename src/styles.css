@@ -1,0 +1,77 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #2c1a15;
+  background: #fffaf3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+/* AI assisted in this file to help creating a consistent design style throughout the application. but all colors and overall design are mine. */
+body { margin: 0; min-width: 320px; background: #fffaf3; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+h1, h2, h3, .brand-button { font-family: Georgia, "Times New Roman", serif; }
+h1 { font-size: clamp(2.4rem, 5vw, 4.6rem); line-height: 1.02; color: #5b2c20; }
+h2 { color: #5b2c20; }
+.site-navbar { background: #5b2c20; }
+.brand-button { border: 0; background: transparent; color: #fff; font-size: 1.5rem; display: inline-flex; align-items: center; gap: .55rem; padding: .25rem 0; }
+.brand-mark { width: 2rem; height: 2rem; display: inline-grid; place-items: center; border-radius: 50%; background: #f3c969; color: #5b2c20; font-family: Georgia, serif; }
+.nav-button { background: transparent; border: 0; color: rgba(255,255,255,.8); }
+.nav-button:hover, .nav-button.active { color: #fff; }
+.cart-badge { background: #f3c969; color: #5b2c20; }
+.hero-section { padding: 5.5rem 0; background: #f5e2c1; }
+.hero-copy { font-size: 1.15rem; max-width: 34rem; line-height: 1.7; margin: 1.5rem 0 2rem; }
+.eyebrow { color: #b54d36; text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; font-weight: 800; margin-bottom: .7rem; }
+.hero-image-card { position: relative; background: #fffaf3; border: .75rem solid #fffaf3; box-shadow: 0 1rem 3rem rgba(91,44,32,.18); transform: rotate(1.5deg); }
+.hero-image-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.hero-note { position: absolute; right: 1rem; bottom: 1rem; background: #fffaf3; padding: .6rem .8rem; font-family: Georgia, serif; color: #5b2c20; }
+.section-padding { padding: 5rem 0; }
+.soft-section { background: #f8e9d3; }
+.section-heading h2 { margin-bottom: 0; }
+.featured-tile { border: 0; background: transparent; padding: 0; color: #2c1a15; }
+.featured-tile img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: .75rem; background: #f5e2c1; }
+.featured-tile:hover img { box-shadow: 0 0 0 .25rem #f3c969; }
+.value-card { background: #fffaf3; padding: 2rem 1.25rem; height: 100%; border-radius: .75rem; }
+.value-icon { display: inline-grid; place-items: center; width: 3rem; height: 3rem; border-radius: 50%; background: #f3c969; color: #5b2c20; font-size: 1.5rem; margin-bottom: 1rem; }
+.product-card { border: 1px solid rgba(91,44,32,.13); border-radius: .75rem; overflow: hidden; background: #fff; transition: transform .2s ease, box-shadow .2s ease; }
+.product-card:hover, .product-card:focus { transform: translateY(-.25rem); box-shadow: 0 .75rem 1.5rem rgba(91,44,32,.12); outline: none; }
+.product-image-wrap { position: relative; background: #f5e2c1; }
+.product-image { height: 220px; object-fit: cover; }
+.product-label { position: absolute; top: .75rem; left: .75rem; padding: .3rem .55rem; border-radius: 99rem; background: #5b2c20; color: #fff; font-size: .75rem; font-weight: 700; }
+.sale-label { left: auto; right: .75rem; background: #b54d36; }
+.product-category { color: #b54d36; font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; }
+.price, .detail-price { color: #5b2c20; font-weight: 800; }
+.price { font-size: 1.15rem; }
+.detail-price { font-size: 2rem; }
+.old-price { color: #8b7169; text-decoration: line-through; font-size: .9em; font-weight: 400; }
+.rating { color: #9a681c; font-weight: 700; white-space: nowrap; }
+.page-heading { max-width: 45rem; }
+.page-heading h1 { font-size: clamp(2.3rem, 5vw, 3.8rem); }
+.btn-primary { --bs-btn-bg: #5b2c20; --bs-btn-border-color: #5b2c20; --bs-btn-hover-bg: #3f1d15; --bs-btn-hover-border-color: #3f1d15; }
+.btn-outline-dark { --bs-btn-color: #5b2c20; --bs-btn-border-color: #5b2c20; --bs-btn-hover-bg: #5b2c20; --bs-btn-hover-border-color: #5b2c20; }
+.detail-image-wrap { background: #f5e2c1; border-radius: .75rem; overflow: hidden; }
+.detail-image-wrap img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+.ingredient-list { padding-left: 1.1rem; line-height: 1.9; }
+.macro-list { border: 1px solid rgba(91,44,32,.13); border-radius: .5rem; overflow: hidden; }
+.macro-list div { display: flex; justify-content: space-between; padding: .55rem .75rem; border-bottom: 1px solid rgba(91,44,32,.1); }
+.macro-list div:last-child { border-bottom: 0; }
+.macro-list strong { color: #5b2c20; }
+.form-card, .summary-card { background: #fff; border: 1px solid rgba(91,44,32,.13); border-radius: .75rem; padding: 2rem; box-shadow: 0 .5rem 1.5rem rgba(91,44,32,.06); }
+.narrow-container { max-width: 740px; }
+.cart-list { background: #fff; border: 1px solid rgba(91,44,32,.13); border-radius: .75rem; padding: 0 1.5rem; }
+.cart-item { padding: 1.5rem 0; border-bottom: 1px solid rgba(91,44,32,.13); }
+.cart-item:last-child { border-bottom: 0; }
+.cart-item-image { width: 90px; height: 90px; border-radius: .5rem; object-fit: cover; background: #f5e2c1; }
+.quantity-control { display: inline-flex; align-items: center; border: 1px solid rgba(91,44,32,.25); border-radius: .4rem; overflow: hidden; }
+.quantity-control button { border: 0; background: #fffaf3; width: 2rem; height: 2rem; color: #5b2c20; font-size: 1.2rem; }
+.quantity-control span { width: 2rem; text-align: center; }
+.empty-state { padding: 4rem 1rem; background: #fff; border: 1px solid rgba(91,44,32,.13); border-radius: .75rem; }
+.empty-icon { font-size: 3rem; color: #b54d36; margin-bottom: 1rem; }
+.site-footer { background: #5b2c20; color: #fff; padding: 2rem 0; }
+.pagination .page-link { color: #5b2c20; }
+.pagination .page-link.active { background: #5b2c20; border-color: #5b2c20; color: #fff; }
+@media (max-width: 767.98px) {
+  .hero-section, .section-padding { padding: 3.5rem 0; }
+  .hero-image-card { margin: 1rem .5rem 0; }
+  .cart-line-total { margin-left: auto; }
+  .cart-item-image { width: 72px; height: 72px; }
+}

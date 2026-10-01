@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#fff5e6"/>
+  <circle cx="450" cy="290" r="150" fill="#f3c969"/>
+  <path d="M270 330c0-104 80-188 180-188s180 84 180 188H270Z" fill="#d96c4f"/>
+  <path d="M310 330c0-78 62-142 140-142s140 64 140 142" fill="none" stroke="#fff5e6" stroke-width="25" stroke-linecap="round"/>
+  <circle cx="380" cy="220" r="18" fill="#5b2c20"/>
+  <circle cx="520" cy="220" r="18" fill="#5b2c20"/>
+  <text x="450" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#5b2c20">Dough Re Mi</text>
+</svg>
